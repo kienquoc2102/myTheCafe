@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inconsolata", sans-serif;
+    height: 100%;
+    line-height: 1.5;
+}
+
+body {
+    height: 100%;
+}
+
+/* CSS Common */
+.clear {
+    clear: both;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.align-left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.align-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.row2 {
+    width: 100%;
+}
+
+.col2 {
+    float: left;
+    width: 49.9999%;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.m-18-0 {
+    margin: 18px 0;
+}
+
+.highlight {
+    background-color: #000;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.main-font {
+    font-family: "Inconsolata", sans-serif;
+}
+
+/* CSS Header */
+#header {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    padding: 8px 16px;
+}
+
+.nav-section {
+    float: left;
+    width: 24.9999%;
+}
+
+.nav-section a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-section a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* CSS Slide */
+#slide {
+    font-size: 15px;
+    position: relative;
+    background-image: url(./image/slide.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75%;
+    filter: grayscale(50%);
+}
+
+#title-slide {
+    font-size: 90px;
+    color: #fff;
+}
+
+#time-in-slide {
+    padding: 2px 12px;
+    background-color: #000;
+    color: #fff;
+    margin: 12px 24px;
+}
+
+#address-in-slide {
+    margin: 12px 24px;
+    color: #fff;
+}
+
+/* About */
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 0 16px;
+    position: relative;
+    font-size: 18px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 10px 0;
+    padding: 64px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-title span {
+    padding: 2px 8px;
+    background-color: #000;
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.section-para {
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+.section-panel {
+    background-color: #f1f1f1;
+    padding: 0 16px;
+    margin: 16px 0;
+    border-left: solid 6px #ccc;
+}
+
+.section-panel p {
+    padding: 18px 0px;
+}
+
+.section-img img {
+    margin-top: 18px;
+    filter: grayscale(50%);
+}
+
+.section-des {
+    margin: 18px 0;
+}
+
+.section-des span {
+    font-weight: 600;
+}
+
+/* Menu */
+.tab-title,
+.tab-content
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.tab-content {
+    margin-bottom: 14px;
+}
+
+.tab-title {
+    padding: 8px 16px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tab-title .title {
+    padding: 4px 0;
+}
+
+.changeTitle {
+    background-color: #616161;
+    color: #fff;
+}
+
+.tab-content {
+    padding: 48px 16px;
+}
+
+.tab-name-section {
+    margin: 10px 0;
+}
+
+.tab-des-section {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.content input{
+    width: 100%;
+    padding: 16px 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.btn button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+/* CSS Footer */
+#footer {
+    position: relative;
+    margin-top: 32px;
+    padding: 48px 0;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    text-align: center;
+}
+
+#footer a {
+    color: #000;
+}
